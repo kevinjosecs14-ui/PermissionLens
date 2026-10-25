@@ -1,0 +1,27 @@
+{
+  "name": "permissionlens",
+  "version": "1.0.0",
+  "description": "Understand App Permissions. Protect Your Privacy. Educational privacy-awareness web application.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "privacy",
+    "permissions",
+    "security",
+    "education",
+    "hackathon",
+    "cybersecurity"
+  ],
+  "author": "PermissionLens Team",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.9",
+    "express": "^4.21.2"
+  }
+}
